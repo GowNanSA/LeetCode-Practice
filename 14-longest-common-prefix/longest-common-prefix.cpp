@@ -3,13 +3,12 @@
 class Solution {
 public:
 
-    // function to split the  word into an array 
-
-    char* split(string& str){
-        char* arr = new char[str.size()+1];
-        strcpy(arr, str.c_str()); 
-        return arr;
-    }
+    // // function to split the  word into an array 
+    // char* split(string& str){
+    //     char* arr = new char[str.size()+1];
+    //     strcpy(arr, str.c_str()); 
+    //     return arr;
+    // }
     string longestCommonPrefix(vector<string>& strs) {
         string prefix = "";
 
