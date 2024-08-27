@@ -17,7 +17,7 @@ public:
             return prefix; 
         }
 
-        // sort based on alphabetical order
+        // sort based on alphabetical order strategy 
         sort(strs.begin(), strs.end());
 
         // store first and last values 
